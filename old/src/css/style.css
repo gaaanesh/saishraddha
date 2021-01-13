@@ -1,0 +1,22 @@
+.carousel-item {
+  height: 32rem; }
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem; }
+
+.carousel-videobg:before {
+  content: '';
+  background: black;
+  background: linear-gradient(90deg, transparent 0%, rgba(26, 18, 16, 0.48) 60%, #1a1210 80%, #1a1210 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.mainpageCarousel .carousel-item {
+  background: #1d1c1d; }
