@@ -1458,7 +1458,7 @@ p {
         padding: 90px 0; } }
     @media (max-width: 767px) {
       .hero-section .hero-content-wrapper {
-        padding: 90px 0 60px; } }
+        padding: 30px 0 30px; } }
     .hero-section .hero-content-wrapper h2 {
       font-weight: 700;
       font-size: 25px;
@@ -1591,6 +1591,12 @@ p {
   padding: 10px;
   text-align: center;
   margin: auto; }
+  @media (max-width: 767px) {
+  .client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo {
+    width: 50%;
+  }
+}
+
   .client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo img {
     max-width: 220px;
     width: 100%;
@@ -1641,7 +1647,7 @@ p {
     -ms-background-clip: text;
     -o-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(#FD580F 0%, #6f58e8 100%);
+    background-image: linear-gradient(#FD580F 0%, #fda40f 100%);
     font-size: 40px;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -1658,7 +1664,7 @@ p {
       position: absolute;
       opacity: 0;
       visibility: hidden;
-      background: linear-gradient(#FD580F 0%, #6f58e8 100%);
+      background: linear-gradient(#FD580F 0%, #fda40f 100%);
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -1939,9 +1945,9 @@ p {
       -moz-box-shadow: 0px 0px 30px rgba(215, 224, 252, 0.45);
       box-shadow: 0px 0px 30px rgba(215, 224, 252, 0.45); }
       .contact-section .contact-item-wrapper .contact-item:hover .contact-icon {
-        -webkit-box-shadow: 0px 0px 30px rgba(46, 87, 217, 0.45);
-        -moz-box-shadow: 0px 0px 30px rgba(46, 87, 217, 0.45);
-        box-shadow: 0px 0px 30px rgba(46, 87, 217, 0.45); }
+        -webkit-box-shadow: 0px 0px 30px rgb(217 125 46 / 45%);
+        -moz-box-shadow: 0px 0px 30px rgb(217 125 46 / 45%);
+        box-shadow: 0px 0px 30px rgb(217 125 46 / 45%); }
     @media only screen and (min-width: 1200px) and (max-width: 1399px) {
       .contact-section .contact-item-wrapper .contact-item {
         padding: 20px; } }
@@ -1959,7 +1965,7 @@ p {
       width: 50px;
       height: 50px;
       border-radius: 50%;
-      background: linear-gradient(#FD580F 0%, #6f58e8 100%);
+      background: linear-gradient(#FD580F 0%, #fda40f 100%);
       color: #fff;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
