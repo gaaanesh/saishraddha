@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"id":"assets/img/client-logo/Loreal_Paris.svg","dependencies":[],"generated":{"js":"module.exports=\"/9b788ce620bfa6a8e5ab3cf505f83f76.svg\";"},"sourceMaps":null,"error":null,"hash":"6a0a8705e1646219292f906c6b915987","cacheData":{}}
+=======
+{"id":"assets/img/client-logo/Loreal_Paris.svg","dependencies":[],"generated":{"js":"module.exports = \"/9b788ce620bfa6a8e5ab3cf505f83f76.svg\";"},"sourceMaps":null,"error":null,"hash":"6a0a8705e1646219292f906c6b915987","cacheData":{"env":{}}}
+>>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad

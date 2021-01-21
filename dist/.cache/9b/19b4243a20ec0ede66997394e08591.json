@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"id":"assets/img/products/sai-shraddha-cosmetic-cotton-puff-3.jpg","dependencies":[{"name":"/Users/apple/Documents/Projects/Sai Shraddha/saishraddha/package.json","includedInParent":true,"mtime":1611148791431}],"generated":{"js":"module.exports = \"/12e96ba5095a57cb3a5e232f11c8fe63.jpg\";"},"sourceMaps":null,"error":null,"hash":"c2ecad529070908e6318b04a0ad27036","cacheData":{"env":{}}}
+=======
+{"id":"assets/img/products/sai-shraddha-cosmetic-cotton-puff-3.jpg","dependencies":[{"name":"/Users/apple/Documents/Projects/Sai Shraddha/saishraddha/package.json","includedInParent":true,"mtime":1611212840971}],"generated":{"js":"module.exports = \"/12e96ba5095a57cb3a5e232f11c8fe63.jpg\";"},"sourceMaps":null,"error":null,"hash":"c2ecad529070908e6318b04a0ad27036","cacheData":{"env":{}}}
+>>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"id":"assets/img/favicon.png","dependencies":[],"generated":{"js":"module.exports=\"/9b017876cf40fb79e38c4a9ceccc8af9.png\";"},"sourceMaps":null,"error":null,"hash":"abc883fe7727581e8bb914d4528cb65f","cacheData":{}}
+=======
+{"id":"assets/img/favicon.png","dependencies":[],"generated":{"js":"module.exports = \"/9b017876cf40fb79e38c4a9ceccc8af9.png\";"},"sourceMaps":null,"error":null,"hash":"abc883fe7727581e8bb914d4528cb65f","cacheData":{"env":{}}}
+>>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad

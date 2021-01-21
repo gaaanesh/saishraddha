@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"id":"assets/img/client-logo/oriflame.svg","dependencies":[],"generated":{"js":"module.exports=\"/ee215bad2681a73a35a52c802e829faf.svg\";"},"sourceMaps":null,"error":null,"hash":"631d30d9d8a4432b2b75f59057969115","cacheData":{}}
+=======
+{"id":"assets/img/client-logo/oriflame.svg","dependencies":[],"generated":{"js":"module.exports = \"/ee215bad2681a73a35a52c802e829faf.svg\";"},"sourceMaps":null,"error":null,"hash":"631d30d9d8a4432b2b75f59057969115","cacheData":{"env":{}}}
+>>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad
