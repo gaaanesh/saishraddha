@@ -122,6 +122,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
+<<<<<<< HEAD
 },{"./../fonts/LineIcons.eot":[["LineIcons.8cfbc49d.eot","assets/fonts/LineIcons.eot"],"assets/fonts/LineIcons.eot"],"./../fonts/LineIcons.woff2":[["LineIcons.af41f116.woff2","assets/fonts/LineIcons.woff2"],"assets/fonts/LineIcons.woff2"],"./../fonts/LineIcons.woff":[["LineIcons.d5d2af74.woff","assets/fonts/LineIcons.woff"],"assets/fonts/LineIcons.woff"],"./../fonts/LineIcons.ttf":[["LineIcons.34d071b9.ttf","assets/fonts/LineIcons.ttf"],"assets/fonts/LineIcons.ttf"],"./../fonts/LineIcons.svg":[["LineIcons.5579277c.svg","assets/fonts/LineIcons.svg"],"assets/fonts/LineIcons.svg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -467,3 +468,8 @@ module.exports = function loadJSBundle(bundle) {
 var b=require("node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("js",require("node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js"));b.load([]);
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], null)
 //# sourceMappingURL=/LineIcons.2.0.a219e6a3.js.map
+=======
+},{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+},{}]
+>>>>>>> 031d5db1f7ba420a07d77d515e7b2a0f50ed2ce7

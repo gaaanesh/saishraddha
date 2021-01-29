@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"id":"assets/img/products/sai-shraddha-cosmetic-cotton-puff-7.jpg","dependencies":[{"name":"/Users/apple/Documents/Projects/Sai Shraddha/saishraddha/package.json","includedInParent":true,"mtime":1611148791431}],"generated":{"js":"module.exports = \"/0d9a598899315108bf09e392422f7177.jpg\";"},"sourceMaps":null,"error":null,"hash":"35525dee5804673437c4220ac76910d0","cacheData":{"env":{}}}
 =======
 {"id":"assets/img/products/sai-shraddha-cosmetic-cotton-puff-7.jpg","dependencies":[{"name":"/Users/apple/Documents/Projects/Sai Shraddha/saishraddha/package.json","includedInParent":true,"mtime":1611212840971}],"generated":{"js":"module.exports = \"/0d9a598899315108bf09e392422f7177.jpg\";"},"sourceMaps":null,"error":null,"hash":"35525dee5804673437c4220ac76910d0","cacheData":{"env":{}}}
 >>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad
+=======
+{"id":"assets/img/products/sai-shraddha-cosmetic-cotton-puff-7.jpg","dependencies":[{"name":"/Users/apple/Documents/Projects/Sai Shraddha/saishraddha/package.json","includedInParent":true,"mtime":1611214077661}],"generated":{"js":"module.exports = \"/0d9a598899315108bf09e392422f7177.jpg\";"},"sourceMaps":null,"error":null,"hash":"35525dee5804673437c4220ac76910d0","cacheData":{"env":{}}}
+>>>>>>> 031d5db1f7ba420a07d77d515e7b2a0f50ed2ce7

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"id":"assets/fonts/LineIcons.eot","dependencies":[{"name":"/Users/apple/Documents/Projects/Sai Shraddha/saishraddha/package.json","includedInParent":true,"mtime":1611125832909}],"generated":{"js":"module.exports = \"/869f2065651782445f36f00d8cfbc49d.eot\";"},"sourceMaps":null,"error":null,"hash":"431804e5e5f0ca4cbcb51e59cb01997f","cacheData":{"env":{}}}
+=======
+{"id":"assets/fonts/LineIcons.eot","dependencies":[],"generated":{"js":"module.exports = \"/869f2065651782445f36f00d8cfbc49d.eot\";"},"sourceMaps":null,"error":null,"hash":"431804e5e5f0ca4cbcb51e59cb01997f","cacheData":{"env":{}}}
+>>>>>>> 031d5db1f7ba420a07d77d515e7b2a0f50ed2ce7

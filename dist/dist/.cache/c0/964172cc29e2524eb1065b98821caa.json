@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"id":"assets/img/hero/ss-using-puff-product-girl.jpg","dependencies":[{"name":"/Users/apple/Documents/Projects/Sai Shraddha/saishraddha/package.json","includedInParent":true,"mtime":1611148791431}],"generated":{"js":"module.exports = \"/8fbf7dcfa8efb18b62d31b97cb9e6247.jpg\";"},"sourceMaps":null,"error":null,"hash":"f56a466deb0c29e5374aab5593a56931","cacheData":{"env":{}}}
+=======
+{"id":"assets/img/hero/ss-using-puff-product-girl.jpg","dependencies":[{"name":"/Users/apple/Documents/Projects/Sai Shraddha/saishraddha/package.json","includedInParent":true,"mtime":1611212840971}],"generated":{"js":"module.exports = \"/8fbf7dcfa8efb18b62d31b97cb9e6247.jpg\";"},"sourceMaps":null,"error":null,"hash":"f56a466deb0c29e5374aab5593a56931","cacheData":{"env":{}}}
+>>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad

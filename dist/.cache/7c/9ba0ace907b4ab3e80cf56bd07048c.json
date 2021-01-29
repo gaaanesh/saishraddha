@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"id":"assets/img/products/sai-shraddha-cosmetic-eye-shadow-sponges-4.jpg","dependencies":[{"name":"/Users/apple/Documents/Projects/Sai Shraddha/saishraddha/package.json","includedInParent":true,"mtime":1611148791431}],"generated":{"js":"module.exports = \"/c58da87a0b0f845ea2738a1b39438d93.jpg\";"},"sourceMaps":null,"error":null,"hash":"6dbfee7ffa1b7b9aa8577dcc7c309216","cacheData":{"env":{}}}
 =======
 {"id":"assets/img/products/sai-shraddha-cosmetic-eye-shadow-sponges-4.jpg","dependencies":[{"name":"/Users/apple/Documents/Projects/Sai Shraddha/saishraddha/package.json","includedInParent":true,"mtime":1611212840971}],"generated":{"js":"module.exports = \"/c58da87a0b0f845ea2738a1b39438d93.jpg\";"},"sourceMaps":null,"error":null,"hash":"6dbfee7ffa1b7b9aa8577dcc7c309216","cacheData":{"env":{}}}
 >>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad
+=======
+{"id":"assets/img/products/sai-shraddha-cosmetic-eye-shadow-sponges-4.jpg","dependencies":[{"name":"/Users/apple/Documents/Projects/Sai Shraddha/saishraddha/package.json","includedInParent":true,"mtime":1611214077661}],"generated":{"js":"module.exports = \"/c58da87a0b0f845ea2738a1b39438d93.jpg\";"},"sourceMaps":null,"error":null,"hash":"6dbfee7ffa1b7b9aa8577dcc7c309216","cacheData":{"env":{}}}
+>>>>>>> 031d5db1f7ba420a07d77d515e7b2a0f50ed2ce7

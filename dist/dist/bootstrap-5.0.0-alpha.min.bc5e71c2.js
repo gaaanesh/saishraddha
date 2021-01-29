@@ -123,10 +123,14 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 <<<<<<< HEAD
+<<<<<<< HEAD
 },{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 =======
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 >>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad
+=======
+},{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+>>>>>>> 031d5db1f7ba420a07d77d515e7b2a0f50ed2ce7
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -155,10 +159,14 @@ if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
 <<<<<<< HEAD
+<<<<<<< HEAD
   var ws = new WebSocket(protocol + '://' + hostname + ':' + "59407" + '/');
 =======
   var ws = new WebSocket(protocol + '://' + hostname + ':' + "57727" + '/');
 >>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad
+=======
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57727" + '/');
+>>>>>>> 031d5db1f7ba420a07d77d515e7b2a0f50ed2ce7
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -335,6 +343,7 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 },{}],"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
@@ -478,4 +487,7 @@ var b=require("node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.reg
 =======
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 >>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad
+=======
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+>>>>>>> 031d5db1f7ba420a07d77d515e7b2a0f50ed2ce7
 //# sourceMappingURL=/bootstrap-5.0.0-alpha.min.bc5e71c2.js.map

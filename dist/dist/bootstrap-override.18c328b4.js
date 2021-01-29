@@ -122,6 +122,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
+<<<<<<< HEAD
 },{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -467,3 +468,8 @@ module.exports = function loadJSBundle(bundle) {
 var b=require("node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("js",require("node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js"));b.load([]);
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], null)
 //# sourceMappingURL=/bootstrap-override.18c328b4.js.map
+=======
+},{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+},{}]
+>>>>>>> 031d5db1f7ba420a07d77d515e7b2a0f50ed2ce7

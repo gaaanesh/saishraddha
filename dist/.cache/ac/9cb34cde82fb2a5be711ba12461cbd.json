@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"id":"assets/img/home/powder-cotton-sewing-puff.jpg","dependencies":[],"generated":{"js":"module.exports=\"/86a0c90c22535496f145618896d6b5a1.jpg\";"},"sourceMaps":null,"error":null,"hash":"c9911e72140b9f1eb263ef108f434b78","cacheData":{}}
 =======
 {"id":"assets/img/home/powder-cotton-sewing-puff.jpg","dependencies":[],"generated":{"js":"module.exports = \"/86a0c90c22535496f145618896d6b5a1.jpg\";"},"sourceMaps":null,"error":null,"hash":"c9911e72140b9f1eb263ef108f434b78","cacheData":{"env":{}}}
 >>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad
+=======
+{"id":"assets/img/home/powder-cotton-sewing-puff.jpg","dependencies":[],"generated":{"js":"module.exports = \"/86a0c90c22535496f145618896d6b5a1.jpg\";"},"sourceMaps":null,"error":null,"hash":"c9911e72140b9f1eb263ef108f434b78","cacheData":{"env":{}}}
+>>>>>>> 031d5db1f7ba420a07d77d515e7b2a0f50ed2ce7

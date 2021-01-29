@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"id":"assets/img/home/eye-shadow-sponges.jpg","dependencies":[],"generated":{"js":"module.exports=\"/bfdf82095e898dfdf6f301eb61336858.jpg\";"},"sourceMaps":null,"error":null,"hash":"2fa4e05b1b837e211225cb6cd47db5a4","cacheData":{}}
 =======
 {"id":"assets/img/home/eye-shadow-sponges.jpg","dependencies":[],"generated":{"js":"module.exports = \"/bfdf82095e898dfdf6f301eb61336858.jpg\";"},"sourceMaps":null,"error":null,"hash":"2fa4e05b1b837e211225cb6cd47db5a4","cacheData":{"env":{}}}
 >>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad
+=======
+{"id":"assets/img/home/eye-shadow-sponges.jpg","dependencies":[],"generated":{"js":"module.exports = \"/bfdf82095e898dfdf6f301eb61336858.jpg\";"},"sourceMaps":null,"error":null,"hash":"2fa4e05b1b837e211225cb6cd47db5a4","cacheData":{"env":{}}}
+>>>>>>> 031d5db1f7ba420a07d77d515e7b2a0f50ed2ce7
