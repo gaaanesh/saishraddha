@@ -6,8 +6,8 @@ Author: lineicons.com
 -------------------------------- */
 @font-face {
   font-family: 'LineIcons';
-  src: url('/869f2065651782445f36f00d8cfbc49d.eot');
-  src: url('/869f2065651782445f36f00d8cfbc49d.eot') format('embedded-opentype'), url('/449d55faab7ac7b78d5156d4af41f116.woff2') format('woff2'), url('/f8024b46d70e04cac50de9fcd5d2af74.woff') format('woff'), url('/9e37bf478e911ba70588e86b34d071b9.ttf') format('truetype'), url('/977fb033fc20ab9a7fe414245579277c.svg') format('svg');
+  src: url('/LineIcons.8cfbc49d.eot');
+  src: url('/LineIcons.8cfbc49d.eot') format('embedded-opentype'), url('/LineIcons.af41f116.woff2') format('woff2'), url('/LineIcons.d5d2af74.woff') format('woff'), url('/LineIcons.34d071b9.ttf') format('truetype'), url('/LineIcons.5579277c.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
