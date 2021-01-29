@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"id":"assets/img/about/sai-shraddha-iso-certificate.jpg","dependencies":[],"generated":{"js":"module.exports=\"/8ada7f640b4728d671663e2600defe3f.jpg\";"},"sourceMaps":null,"error":null,"hash":"91e6b120b0aad9d6c998d5f5b4c77cff","cacheData":{}}
+=======
+{"id":"assets/img/about/sai-shraddha-iso-certificate.jpg","dependencies":[],"generated":{"js":"module.exports = \"/8ada7f640b4728d671663e2600defe3f.jpg\";"},"sourceMaps":null,"error":null,"hash":"91e6b120b0aad9d6c998d5f5b4c77cff","cacheData":{"env":{}}}
+>>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad

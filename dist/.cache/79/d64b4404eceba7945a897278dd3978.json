@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"id":"assets/img/client-logo/nykaa.svg","dependencies":[],"generated":{"js":"module.exports=\"/9436c8b08022ff8844ec87de71c2ab6a.svg\";"},"sourceMaps":null,"error":null,"hash":"27f86ef969dfbcfd5a9de3748717852c","cacheData":{}}
+=======
+{"id":"assets/img/client-logo/nykaa.svg","dependencies":[],"generated":{"js":"module.exports = \"/9436c8b08022ff8844ec87de71c2ab6a.svg\";"},"sourceMaps":null,"error":null,"hash":"27f86ef969dfbcfd5a9de3748717852c","cacheData":{"env":{}}}
+>>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad

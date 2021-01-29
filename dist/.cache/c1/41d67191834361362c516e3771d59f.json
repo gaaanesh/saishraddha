@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"id":"assets/img/about/about-img.png","dependencies":[],"generated":{"js":"module.exports=\"/7ae550b74f8d701a7607eb8c452a8c26.png\";"},"sourceMaps":null,"error":null,"hash":"ae77b8cf9b632d414da0b49a72668122","cacheData":{}}
+=======
+{"id":"assets/img/about/about-img.png","dependencies":[],"generated":{"js":"module.exports = \"/7ae550b74f8d701a7607eb8c452a8c26.png\";"},"sourceMaps":null,"error":null,"hash":"ae77b8cf9b632d414da0b49a72668122","cacheData":{"env":{}}}
+>>>>>>> 4aa2fb875c8d2e039f889fc34476ba815e762aad
