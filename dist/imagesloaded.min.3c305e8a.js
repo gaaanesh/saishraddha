@@ -120,7 +120,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"node_modules/ev-emitter/ev-emitter.js":[function(require,module,exports) {
 var global = arguments[3];
 /**
- * EvEmitter v2.0.0
+ * EvEmitter v2.1.1
  * Lil' event emitter
  * MIT License
  */
@@ -222,51 +222,46 @@ return EvEmitter;
 
 },{}],"assets/js/imagesloaded.min.js":[function(require,module,exports) {
 var define;
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 /*!
  * imagesLoaded PACKAGED v4.1.4
  * JavaScript is all like "You images are done yet or what?"
  * MIT License
  */
+
 !function (e, t) {
   "function" == typeof define && define.amd ? define("ev-emitter/ev-emitter", t) : "object" == (typeof module === "undefined" ? "undefined" : _typeof(module)) && module.exports ? module.exports = t() : e.EvEmitter = t();
 }("undefined" != typeof window ? window : this, function () {
   function e() {}
-
   var t = e.prototype;
   return t.on = function (e, t) {
     if (e && t) {
       var i = this._events = this._events || {},
-          n = i[e] = i[e] || [];
+        n = i[e] = i[e] || [];
       return n.indexOf(t) == -1 && n.push(t), this;
     }
   }, t.once = function (e, t) {
     if (e && t) {
       this.on(e, t);
       var i = this._onceEvents = this._onceEvents || {},
-          n = i[e] = i[e] || {};
+        n = i[e] = i[e] || {};
       return n[t] = !0, this;
     }
   }, t.off = function (e, t) {
     var i = this._events && this._events[e];
-
     if (i && i.length) {
       var n = i.indexOf(t);
       return n != -1 && i.splice(n, 1), this;
     }
   }, t.emitEvent = function (e, t) {
     var i = this._events && this._events[e];
-
     if (i && i.length) {
       i = i.slice(0), t = t || [];
-
       for (var n = this._onceEvents && this._onceEvents[e], o = 0; o < i.length; o++) {
         var r = i[o],
-            s = n && n[r];
+          s = n && n[r];
         s && (this.off(e, r), delete n[r]), r.apply(this, t);
       }
-
       return this;
     }
   }, t.allOff = function () {
@@ -280,51 +275,40 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
   }) : "object" == (typeof module === "undefined" ? "undefined" : _typeof(module)) && module.exports ? module.exports = t(e, require("ev-emitter")) : e.imagesLoaded = t(e, e.EvEmitter);
 }("undefined" != typeof window ? window : this, function (e, t) {
   function i(e, t) {
-    for (var i in t) {
-      e[i] = t[i];
-    }
-
+    for (var i in t) e[i] = t[i];
     return e;
   }
-
   function n(e) {
     if (Array.isArray(e)) return e;
     var t = "object" == _typeof(e) && "number" == typeof e.length;
     return t ? d.call(e) : [e];
   }
-
   function o(e, t, r) {
     if (!(this instanceof o)) return new o(e, t, r);
     var s = e;
     return "string" == typeof e && (s = document.querySelectorAll(e)), s ? (this.elements = n(s), this.options = i({}, this.options), "function" == typeof t ? r = t : i(this.options, t), r && this.on("always", r), this.getImages(), h && (this.jqDeferred = new h.Deferred()), void setTimeout(this.check.bind(this))) : void a.error("Bad element for imagesLoaded " + (s || e));
   }
-
   function r(e) {
     this.img = e;
   }
-
   function s(e, t) {
     this.url = e, this.element = t, this.img = new Image();
   }
-
   var h = e.jQuery,
-      a = e.console,
-      d = Array.prototype.slice;
+    a = e.console,
+    d = Array.prototype.slice;
   o.prototype = Object.create(t.prototype), o.prototype.options = {}, o.prototype.getImages = function () {
     this.images = [], this.elements.forEach(this.addElementImages, this);
   }, o.prototype.addElementImages = function (e) {
     "IMG" == e.nodeName && this.addImage(e), this.options.background === !0 && this.addElementBackgroundImages(e);
     var t = e.nodeType;
-
     if (t && u[t]) {
       for (var i = e.querySelectorAll("img"), n = 0; n < i.length; n++) {
         var o = i[n];
         this.addImage(o);
       }
-
       if ("string" == typeof this.options.background) {
         var r = e.querySelectorAll(this.options.background);
-
         for (n = 0; n < r.length; n++) {
           var s = r[n];
           this.addElementBackgroundImages(s);
@@ -355,7 +339,6 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
         t.progress(e, i, n);
       });
     }
-
     var t = this;
     return this.progressedCount = 0, this.hasAnyBroken = !1, this.images.length ? void this.images.forEach(function (t) {
       t.once("progress", e), t.check();
@@ -364,7 +347,6 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
     this.progressedCount++, this.hasAnyBroken = this.hasAnyBroken || !e.isLoaded, this.emitEvent("progress", [this, e, t]), this.jqDeferred && this.jqDeferred.notify && this.jqDeferred.notify(this, e), this.progressedCount == this.images.length && this.complete(), this.options.debug && a && a.log("progress: " + i, e, t);
   }, o.prototype.complete = function () {
     var e = this.hasAnyBroken ? "fail" : "done";
-
     if (this.isComplete = !0, this.emitEvent(e, [this]), this.emitEvent("always", [this]), this.jqDeferred) {
       var t = this.hasAnyBroken ? "reject" : "resolve";
       this.jqDeferred[t](this);
@@ -404,7 +386,6 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
-
 function Module(moduleName) {
   OldModule.call(this, moduleName);
   this.hot = {
@@ -420,37 +401,32 @@ function Module(moduleName) {
   };
   module.bundle.hotData = null;
 }
-
 module.bundle.Module = Module;
 var checkedAssets, assetsToAccept;
 var parent = module.bundle.parent;
-
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56770" + '/');
-
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50876" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
     var data = JSON.parse(event.data);
-
     if (data.type === 'update') {
       var handled = false;
       data.assets.forEach(function (asset) {
         if (!asset.isNew) {
           var didAccept = hmrAcceptCheck(global.parcelRequire, asset.id);
-
           if (didAccept) {
             handled = true;
           }
         }
-      }); // Enable HMR for CSS by default.
+      });
 
+      // Enable HMR for CSS by default.
       handled = handled || data.assets.every(function (asset) {
         return asset.type === 'css' && asset.generated.js;
       });
-
       if (handled) {
         console.clear();
         data.assets.forEach(function (asset) {
@@ -464,20 +440,16 @@ if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
         location.reload();
       }
     }
-
     if (data.type === 'reload') {
       ws.close();
-
       ws.onclose = function () {
         location.reload();
       };
     }
-
     if (data.type === 'error-resolved') {
       console.log('[parcel] ✨ Error resolved');
       removeErrorOverlay();
     }
-
     if (data.type === 'error') {
       console.error('[parcel] 🚨  ' + data.error.message + '\n' + data.error.stack);
       removeErrorOverlay();
@@ -486,19 +458,17 @@ if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
     }
   };
 }
-
 function removeErrorOverlay() {
   var overlay = document.getElementById(OVERLAY_ID);
-
   if (overlay) {
     overlay.remove();
   }
 }
-
 function createErrorOverlay(data) {
   var overlay = document.createElement('div');
-  overlay.id = OVERLAY_ID; // html encode message and stack trace
+  overlay.id = OVERLAY_ID;
 
+  // html encode message and stack trace
   var message = document.createElement('div');
   var stackTrace = document.createElement('pre');
   message.innerText = data.error.message;
@@ -506,41 +476,31 @@ function createErrorOverlay(data) {
   overlay.innerHTML = '<div style="background: black; font-size: 16px; color: white; position: fixed; height: 100%; width: 100%; top: 0px; left: 0px; padding: 30px; opacity: 0.85; font-family: Menlo, Consolas, monospace; z-index: 9999;">' + '<span style="background: red; padding: 2px 4px; border-radius: 2px;">ERROR</span>' + '<span style="top: 2px; margin-left: 5px; position: relative;">🚨</span>' + '<div style="font-size: 18px; font-weight: bold; margin-top: 20px;">' + message.innerHTML + '</div>' + '<pre>' + stackTrace.innerHTML + '</pre>' + '</div>';
   return overlay;
 }
-
 function getParents(bundle, id) {
   var modules = bundle.modules;
-
   if (!modules) {
     return [];
   }
-
   var parents = [];
   var k, d, dep;
-
   for (k in modules) {
     for (d in modules[k][1]) {
       dep = modules[k][1][d];
-
       if (dep === id || Array.isArray(dep) && dep[dep.length - 1] === id) {
         parents.push(k);
       }
     }
   }
-
   if (bundle.parent) {
     parents = parents.concat(getParents(bundle.parent, id));
   }
-
   return parents;
 }
-
 function hmrApply(bundle, asset) {
   var modules = bundle.modules;
-
   if (!modules) {
     return;
   }
-
   if (modules[asset.id] || !bundle.parent) {
     var fn = new Function('require', 'module', 'exports', asset.generated.js);
     asset.isNew = !modules[asset.id];
@@ -549,58 +509,45 @@ function hmrApply(bundle, asset) {
     hmrApply(bundle.parent, asset);
   }
 }
-
 function hmrAcceptCheck(bundle, id) {
   var modules = bundle.modules;
-
   if (!modules) {
     return;
   }
-
   if (!modules[id] && bundle.parent) {
     return hmrAcceptCheck(bundle.parent, id);
   }
-
   if (checkedAssets[id]) {
     return;
   }
-
   checkedAssets[id] = true;
   var cached = bundle.cache[id];
   assetsToAccept.push([bundle, id]);
-
   if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
     return true;
   }
-
   return getParents(global.parcelRequire, id).some(function (id) {
     return hmrAcceptCheck(global.parcelRequire, id);
   });
 }
-
 function hmrAcceptRun(bundle, id) {
   var cached = bundle.cache[id];
   bundle.hotData = {};
-
   if (cached) {
     cached.hot.data = bundle.hotData;
   }
-
   if (cached && cached.hot && cached.hot._disposeCallbacks.length) {
     cached.hot._disposeCallbacks.forEach(function (cb) {
       cb(bundle.hotData);
     });
   }
-
   delete bundle.cache[id];
   bundle(id);
   cached = bundle.cache[id];
-
   if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
     cached.hot._acceptCallbacks.forEach(function (cb) {
       cb();
     });
-
     return true;
   }
 }
